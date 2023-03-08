@@ -115,6 +115,8 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -344,7 +346,14 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scenes/Slingshot.cs"
+"Assets/Scenes/Scripts/CloudCover.cs"
+"Assets/Scenes/Scripts/FollowCam.cs"
+"Assets/Scenes/Scripts/Goal.cs"
+"Assets/Scenes/Scripts/MissionDemolition.cs"
+"Assets/Scenes/Scripts/Projectile.cs"
+"Assets/Scenes/Scripts/ProjectileLine.cs"
+"Assets/Scenes/Scripts/RigidbodySleep.cs"
+"Assets/Scenes/Scripts/Slingshot.cs"
 -langversion:9.0
 
 /deterministic
